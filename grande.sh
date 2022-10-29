@@ -19,3 +19,8 @@ then
 else 
     echo "errore: il numero 1 è più piccolo del 2"
 fi
+
+echo "scrivere qualcosa per continuare"
+read var
+echo "hai scritto:"
+echo $var
